@@ -2,7 +2,7 @@
 Using Machine Learning techniques, we create a model that provides a text input (eg. a review for a restaurant) and gives a rating in the form of [1-5] stars.
 
 -data: includes a pkl file with tf-idf results, a stopwords file and a dictionary that is used for the glove.
-* the stopwords are the ones that keras contains, expect for those with negative meaning (eg. not, haven't, isn't etc)
+* the stopwords are the ones that keras contains, except for those with negative meaning (eg. not, haven't, isn't etc)
 ** pkl files is not included due to its size (500MB). It can be reproduced using the code.
 
 - data analysis: contains the files used for the graph and map creation.
@@ -17,5 +17,5 @@ Using Machine Learning techniques, we create a model that provides a text input 
 
 - attention.py, combined with the previous one .py file, creates an lstm with attention layer.
 
-- html folder which contains the web page with the results
+- html folder contains the web page with the results
 
