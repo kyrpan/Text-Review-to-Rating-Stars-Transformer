@@ -5,11 +5,7 @@ We use the dataset provided from Yelp containing reviews for restaurants, in ord
 
 Concerning the models, we set up two Neural Networks: a CNN and an LSTM. The first one reached an accuracy of 60.5% while the second one made it to 62.4%.
 
-- data: includes a pkl file with TF-IDF results, a stopwords file and a dictionary that is used for the glove.
-
-* the stopwords are the ones that keras contains, except for those with negative meaning (eg. not, haven't, isn't etc)
-
-** pkl files is not included due to its size (500MB). It can be reproduced using the code.
+- data: includes a pkl file with TF-IDF results, a stopwords file and a dictionary that is used for the GloVe. The stopwords are the ones that keras contains, except for those with negative meaning (eg. not, haven't, isn't etc). The pkl file is not included due to its size (500MB). It can be reproduced using the code.
 
 - data analysis: contains the files used for the graph and map creation.
 
