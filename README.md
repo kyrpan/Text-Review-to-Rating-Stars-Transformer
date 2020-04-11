@@ -1,4 +1,4 @@
-# text_review_to_rating_stars_transformer
+# Text-Review-to-Rating-Stars-Transformer
 Using Machine Learning techniques, we create a model that provides a text input (eg. a review for a restaurant) and gives a rating in the form of [1-5] stars.
 
 -data: includes a pkl file with tf-idf results, a stopwords file and a dictionary that is used for the glove.
